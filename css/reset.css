@@ -1,0 +1,52 @@
+/* Elimina márgenes, rellenos y bordes */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Establece un ancho total basado en el modelo de caja */
+html {
+    line-height: 1.15;
+    /* Mejora la legibilidad */
+    -webkit-text-size-adjust: 100%;
+    /* Evita el ajuste de tamaño de texto en dispositivos móviles */
+}
+
+/* Remueve el estilo de lista predeterminado */
+ol,
+ul {
+    list-style: none;
+}
+
+/* Remueve estilos de enlaces */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Reestablece estilo de imágenes */
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+/* Remueve estilos de botones y los personaliza */
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+
+/* Asegura que las tablas ocupen el ancho completo */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}

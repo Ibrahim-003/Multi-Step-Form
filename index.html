@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/images/logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Register Form</title>
+</head>
+
+<body>
+    <main class="main">
+        <form action="#" class="form">
+            <section class="steps">
+                <div class="step active register">
+                    <h2 class="register__title">Register</h2>
+                    <div class="register__field">
+                        <div class="register__field-item">
+                            <label class="register__label" for="name">Name</label>
+                            <input class="register__input" type="text" name="name" id="name"
+                                placeholder="enter your name">
+                            <div class="nameMessage" id="nameError-container">
+
+                            </div>
+                        </div>
+                        <div class="register__field-item">
+                            <label class="register__label" for="email">Email</label>
+                            <input class="register__input" type="email" name="email" id="email"
+                                placeholder="example@gmail.com">
+                            <div class="nameMessage" id="emailError-container">
+
+                            </div>
+                        </div>
+                    </div>
+                    <button class="continue__btn" id="first-step-btn" type="button">Continue</button>
+                </div>
+
+                <div class="step topics">
+                    <header>
+                        <h2 class="topics__title">Which topics you are interested in?</h2>
+                    </header>
+                    <div class="checkbox-container">
+                        <div class="checkbox">
+                            <input type="checkbox" name="topics" id="software-development" value="Software Development">
+                            <label for="software-development">Software Development</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" name="topics" id="user-expirence" value="User Expirence">
+                            <label for="user-expirence">User Experience</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" name="topics" id="graphic-design" value="Graphic Design">
+                            <label for="graphic-design">Graphic Design</label>
+                        </div>
+                        <div class="nameMessage" id="topicsError-container">
+
+                        </div>
+                    </div>
+                    <button class="continue__btn" id="second-step-btn" type="button">Continue</button>
+                </div>
+
+                <div class="step summary">
+                    <h2 class="summary__title">Summary</h2>
+                    <div class="summary__content">
+                        <div class="summary__content-info">
+                            <div class="name-container">
+                                <h3>Name:</h3>
+                                <p class="userName"></p>
+                            </div>
+                            <div class="email-container">
+                                <h3>Email:</h3>
+                                <p class="userEmail"></p>
+                            </div>
+                        </div>
+                        <div class="summary__content-topics">
+                            <h3>Topics:</h3>
+                            <ul class="user-topics">
+
+                            </ul>
+                        </div>
+                    </div>
+                    <button class="continue__btn confirm" id="third-step-btn" type="submit">Confirm</button>
+                </div>
+            </section>
+        </form>
+        <nav class="pagination">
+            <p class="pagination__text">Step <span id="step-number">1</span> of 3</p>
+            <div class="pagination__bar">
+                <div class="pagination__bar-item active"></div>
+                <div class="pagination__bar-item"></div>
+                <div class="pagination__bar-item"></div>
+            </div>
+        </nav>
+    </main>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
