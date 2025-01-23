@@ -135,7 +135,7 @@ input {
 .register .register__field-item .nameMessage {
     position: absolute;
     width: 100%;
-    bottom: -40%;
+    bottom: -25%;
     display: flex;
     justify-content: flex-end;
     align-items: center;

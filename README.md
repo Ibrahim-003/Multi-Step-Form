@@ -1,5 +1,6 @@
 # Multi-Step Form
 
+## Descripción 📖
 Este proyecto es un formulario de registro interactivo de múltiples pasos, diseñado con **HTML**, **CSS** y **JavaScript**. Incluye validaciones en el lado del cliente y una previsualización final de los datos antes de enviarlos al servidor.
 
 ## Vista Previa
@@ -57,4 +58,4 @@ Puedes ver la versión demo en vivo aquí: [Multi-Step Form](https://ibrahim-003
 
 ## Autor
 
-Este proyecto fue desarrollado por [Ibrahim Almeyda](https://github.com/Ibrahim-003) como parte de un desafío personal para mejorar habilidades en desarrollo frontend. 
+Este proyecto fue desarrollado por [Ibrahim Almeyda](https://github.com/Ibrahim-003)

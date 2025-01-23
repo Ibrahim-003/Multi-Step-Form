@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Register Form</title>
+    <script type="module" src="./js/main.js" defer></script>
 </head>
 
 <body>
@@ -20,7 +21,7 @@
                         <div class="register__field-item">
                             <label class="register__label" for="name">Name</label>
                             <input class="register__input" type="text" name="name" id="name"
-                                placeholder="enter your name">
+                                placeholder="enter your name" autocomplete="off">
                             <div class="nameMessage" id="nameError-container">
 
                             </div>
@@ -28,7 +29,7 @@
                         <div class="register__field-item">
                             <label class="register__label" for="email">Email</label>
                             <input class="register__input" type="email" name="email" id="email"
-                                placeholder="example@gmail.com">
+                                placeholder="example@gmail.com" autocomplete="off">
                             <div class="nameMessage" id="emailError-container">
 
                             </div>
@@ -94,7 +95,6 @@
             </div>
         </nav>
     </main>
-    <script src="./js/index.js"></script>
 </body>
 
 </html>
