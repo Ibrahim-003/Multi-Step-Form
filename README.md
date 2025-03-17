@@ -5,7 +5,7 @@ Este proyecto es un formulario de registro interactivo de múltiples pasos, dise
 
 ## Vista Previa
 
-![Captura del Proyecto](./assets/images/desktop-preview.png)
+![Captura del Proyecto](./src/assets/images/desktop-preview.webp)
 
 Puedes ver la versión demo en vivo aquí: [Multi-Step Form](https://ibrahim-003.github.io/Multi-Step-Form/)
 
@@ -22,6 +22,12 @@ Puedes ver la versión demo en vivo aquí: [Multi-Step Form](https://ibrahim-003
   - Indicador visual del progreso del formulario en la parte inferior de la página.
 - **Responsive Design**:
   - Diseño adaptable a dispositivos móviles y de escritorio para una experiencia fluida.
+
+## Tecnologías Usadas
+
+- **HTML**
+- **CSS**
+- **JavaScript (ES6+)**
 
 ## Estructura de Archivos
 
@@ -49,12 +55,6 @@ Puedes ver la versión demo en vivo aquí: [Multi-Step Form](https://ibrahim-003
 
 ## Tecnologías Utilizadas
 
-- **HTML5**: Estructura semántica del formulario y la página.
-- **CSS3**: Estilización, incluyendo diseño adaptativo y barra de progreso.
-- **JavaScript**:
-  - Navegación entre pasos del formulario.
-  - Validaciones dinámicas de los campos.
-  - Previsualización de datos en el paso final.
 
 ## Autor
 
